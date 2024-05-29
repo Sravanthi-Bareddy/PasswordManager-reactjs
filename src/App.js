@@ -220,7 +220,7 @@ class PasswordManager extends Component {
                     data-testid="delete"
                     type="button"
                     className="delete-button"
-                    onClick={() => this.deletePassword(passwordItem.id)}
+                    onClick={this.deletePassword(passwordItem.id)}
                   >
                     <img
                       className="delete-icon"
